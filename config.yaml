@@ -1,0 +1,9 @@
+users:
+- user: user1 # id
+  username: admin # required for login
+  password: password # required for login
+- user: user2
+  username: user
+  password: password
+skiplogin: # set to users.user to use instead of showing login screen
+port: 8082 
